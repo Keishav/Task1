@@ -1,0 +1,24 @@
+import java.util.*;
+public class Task1
+{
+	public static void main(String[] args)
+  {
+		Scanner sc = new Scanner(System.in);
+		int n;
+		System.out.println("Enter 1 for Printing Hi");
+		System.out.println("Enter 2 for Printing Hey");
+		System.out.println("Enter 3 for Printing hello");
+		System.out.println("Enter your choice");
+		n=sc.nextInt();
+		switch(n)
+		{
+		case 1:System.out.println("You chose to print hi");
+		       break;
+		case 2:System.out.println("You chose to print hey");
+		       break;
+		case 3:System.out.println("You chose to print hello");
+		       break;
+		 default:System.out.println("Wrong choice");
+		}
+	}
+}
